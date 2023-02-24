@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/matiashenriquez/static/css/main.586e481a.css",
+    "main.css": "/matiashenriquez/static/css/main.ab10047b.css",
     "main.js": "/matiashenriquez/static/js/main.43119168.js",
     "static/media/logo-verificado-twitter.png": "/matiashenriquez/static/media/logo-verificado-twitter.54b569375a20eb6b6e24.png",
     "static/media/colmann.jpg": "/matiashenriquez/static/media/colmann.e8f5caca43bdd75fb945.jpg",
     "static/media/imagenApocalipsis.jpg": "/matiashenriquez/static/media/imagenApocalipsis.766c6e9113fd6a2f4fe2.jpg",
     "index.html": "/matiashenriquez/index.html",
-    "main.586e481a.css.map": "/matiashenriquez/static/css/main.586e481a.css.map",
+    "main.ab10047b.css.map": "/matiashenriquez/static/css/main.ab10047b.css.map",
     "main.43119168.js.map": "/matiashenriquez/static/js/main.43119168.js.map"
   },
   "entrypoints": [
-    "static/css/main.586e481a.css",
+    "static/css/main.ab10047b.css",
     "static/js/main.43119168.js"
   ]
 }
