@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-bienvenidos{
+  background: linear-gradient(90deg, rgba(95,15,64,1) 0%, rgba(154,3,30,1) 100%);
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.texto-matias{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin: 13px;
+}
+
+.logo-twitter{
+  margin-top: 12px;
+  width: 20px;
+  height: 20px; 
+}
+
+.contenedor-links-navbar{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.link-proyectos{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 12px;
+}
+
+.texto-saludo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 10px #e36414;
+  padding-top: 300px;
+  padding-left: 100px;
+}
+
+.texto-nombre{
+  font-family: 'Oswald', sans-serif;
+  color: #fb8b24;
+  font-size: 70px;
+  padding-left: 100px;
+  text-shadow: 1px 1px 10px #9a031e;
+}
+
+.texto-desarrollador{
+  font-size: 35px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  color: #fb8b24;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-redes-sociales{
+  font-size: 30px;
+  margin-left: 110px;
+}
+
+.contenedor-redes-sociales a{
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 603px){
+  .link-proyectos{
+    margin-top: 60px;
+  }
+  .texto-saludo {
+    padding-left: 10px;
+  }
+  .texto-nombre{
+    padding-left: 10px;
+    font-size: 40px;
+  }
+  .texto-desarrollador{
+    padding-left: 10px;
+    font-size: 25px;
+  }
+  .contenedor-redes-sociales{
+    margin-left: 15px;
+  }
+}
+
+.presentacion{
+  padding-top: 200px;
+  background: linear-gradient(90deg, rgba(95,15,64,1) 0%, rgba(154,3,30,1) 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.contenedor-presentacion{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.texto-sobre-mi{
+  width: 120px;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.texto-presentacion{
+  width: 400px;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  background-color: #9a031e;
+  box-shadow: 1px 1px 10px #e36414;
+}
+
+.contenedor-proyectos{
+  background: linear-gradient(90deg, rgba(95,15,64,1) 0%, rgba(154,3,30,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.titulo-mis-proyectos{
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.contenedor-proyecto1{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow:1px 1px 20px #fb8b24;
+}
+
+.apocalipsis-imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.titulo-apocalipsis{
+  font-family: 'Oswald', sans-serif;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+.texto-apocalipsis{
+  width: 200px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-tecnologias{
+  display: flex;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.icono-tecnologia{
+  margin: 0px 5px;
+  font-size: 25px;
+}
+
+.enlace-ver-proyecto{
+  text-decoration: none;
+  color: #fff;
+  background-color: #e36414;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.enlace-ver-proyecto:hover{
+  transition: .2s;
+  box-shadow: 1px 1px 5px #e36414;
+}
+
+@media screen and (max-width:580px) {
+  .contenedor-proyecto1{
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor-textos{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .texto-apocalipsis{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .contenedor-tecnologias{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+}
+
