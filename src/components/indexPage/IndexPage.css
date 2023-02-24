@@ -126,7 +126,6 @@
   color: #fff;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  border-radius: 10px;
   background-color: #9a031e;
   box-shadow: 1px 1px 10px #e36414;
 }
@@ -207,6 +206,7 @@
 
 @media screen and (max-width:580px) {
   .contenedor-proyecto1{
+    width: 280px;
     display: flex;
     justify-content: center;
   }
